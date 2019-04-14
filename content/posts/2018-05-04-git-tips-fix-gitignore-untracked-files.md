@@ -5,7 +5,7 @@ description: "Quick GIT tip — fix .gitignore untracked files"
 date: 2018-05-04 00:00:01
 author: Catalin
 tags: ['how to git', 'how to']
-cover: /images/posts/git.jpg
+cover: 
 fullscreen: false
 ---
 Let’s say you’ve added by mistake a folder to your repo, you want to remove it from tracking and, of course, you are adding it to your .gitignore file.
@@ -24,4 +24,3 @@ git add .
 git commit -m "fixed untracked files"
 ```
 
-Image credit https://wall.alphacoders.com/big.php?i=430944

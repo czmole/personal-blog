@@ -5,7 +5,7 @@ description: "Handy way to split MS Word files by page"
 date: 2018-04-11 00:00:01
 author: Catalin
 tags: ['how to MS Word', 'how to']
-cover: /images/posts/microsoft-word-wletter-design-logo-220844.jpg
+cover: 
 fullscreen: false
 ---
 
@@ -23,4 +23,4 @@ After the MS Word split, I used this tool [word2txt](http://www.download25.com/i
 
 Gist URL https://gist.github.com/czmole/eb70ff0f54053352ef466d5cfd9c8863
 
-[Image credit](http://www.desktopwallpaperhd.net/microsoft-word-wletter-design-logo-220844.html)
+

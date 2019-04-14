@@ -5,7 +5,7 @@ description: "Detailed video explaining how to use your TP-Link router as a rang
 date: 2018-01-01 00:00:01
 author: Catalin
 tags: ['networking', 'tp-link', 'how to']
-cover: /images/posts/tp-link-router.jpg
+cover: 
 fullscreen: false
 ---
 
