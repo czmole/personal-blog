@@ -5,10 +5,10 @@ class TailwindExtractor {
 }
 
 module.exports = {
-  siteName: 'A blog starter for Gridsome',
-  siteDescription: "Bleda is a blog starter kit for Gridsome, the static site generator. It's inspired by Attila for Ghost, and styled with Tailwind CSS.",
-  siteUrl: 'https://gridsome-starter-bleda.netlify.com',
-  titleTemplate: `%s | Bleda`,
+  siteName: 'New Bits On The Blog',
+  siteDescription: "Thougs, stories, ideas, how-to. Mostly on web development.",
+  siteUrl: 'https://blog.zmole.ro',
+  titleTemplate: `%s`,
   icon: 'src/favicon.png',
 
   transformers: {
@@ -62,13 +62,13 @@ module.exports = {
         contentTypeName: 'Post',
         feedOptions: {
           title: 'Bleda, a Gridsome blog starter',
-          feed_url: 'https://gridsome-starter-bleda.netlify.com/feed.xml',
-          site_url: 'https://gridsome-starter-bleda.netlify.com'
+          feed_url: 'https://blog.zmole.ro/feed.xml',
+          site_url: 'https://blog.zmole.ro'
         },
         feedItemOptions: node => ({
           title: node.title,
           description: node.fields.description,
-          url: 'https://gridsome-starter-bleda.netlify.com/' + node.slug,
+          url: 'https://blog.zmole.ro/' + node.slug,
           author: node.fields.author,
           date: node.fields.date
         }),
