@@ -70,4 +70,4 @@ What it simply does is to build a custom provider based on the Facebook provider
 
 It works like magic! Hope it will help you as well!
 
-Have you hit into simillar problem? How did you solved it? If you want to share your experience on this ping me on Twitter [@czmole](https://twitter.com/czmole)
+**Have you hit into simillar problem? How did you solved it? If you want to share your experience on this ping me on Twitter [@czmole](https://twitter.com/czmole)**
