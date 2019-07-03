@@ -13,7 +13,7 @@ fullscreen: false
 
 As you may already have known and as their [https://github.com/laravel/socialite](https://github.com/laravel/socialite) says: "Laravel Socialite provides an expressive, fluent interface to OAuth authentication with Facebook, Twitter, Google, LinkedIn, GitHub, GitLab and Bitbucket. It handles almost all of the boilerplate social authentication code you are dreading writing."
 
-The configuration is pretty easy: in the ``config/services.php`` you can add for each social provider its name and the connection parameters, for example:
+After installing it in your project, the configuration is pretty easy: in the ``config/services.php`` you can add for each social provider its name and the connection parameters, for example:
 
 ```php
     return [
