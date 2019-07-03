@@ -6,7 +6,7 @@
       <h1 class="text-4xl sm:text-5xl md:text-6xl font-sans font-bold mb-1">
       <g-link to="/" class="text-black">New Bits On The Blog</g-link>
       </h1>
-      <p class="text-gray-700 text-lg sm:text-3xl">Thougs, stories, ideas and how-to's. Mostly on web development.</p>
+      <p class="text-gray-700 text-lg sm:text-3xl">Thoughts, stories, ideas and how-to's. Mostly on web development.</p>
       <nav>
         <ul class="inline-flex sm:text-center -mx-2 mt-4">
           <li class="px-2">
@@ -64,7 +64,7 @@ config () {
 return config
 },
 ogImageUrl () {
-return `${this.config.siteUrl}/images/bleda-card.png`
+return `${this.config.siteUrl}/images/nbotb-card.png`
 }
 },
 }

@@ -127,7 +127,7 @@ export default {
       return postSlug ? `${siteUrl}/${postSlug}/` : `${siteUrl}/${slugify(this.$page.post.title)}/`
     },
     ogImageUrl () {
-      return this.$page.post.cover || `${this.config.siteUrl}/images/bleda-card.png`
+      return this.$page.post.cover || `${this.config.siteUrl}/images/nbotb-card.png`
     }
   },
 }
