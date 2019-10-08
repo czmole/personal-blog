@@ -14,7 +14,7 @@
           </li>
           
           <li class="px-2">
-            <g-link to="/tag/til" class="border-b border-transparent hover:border-gray-400 transition-border-color">#Today I Learned</g-link>
+            <g-link to="/tag/today-i-learned/" class="border-b border-transparent hover:border-gray-400 transition-border-color">#Today I Learned</g-link>
           </li>
           
           <li class="px-2">
