@@ -12,6 +12,11 @@
           <li class="px-2">
             <g-link to="/about/" class="border-b border-transparent hover:border-gray-400 transition-border-color">About</g-link>
           </li>
+          
+          <li class="px-2">
+            <g-link to="/tag/til" class="border-b border-transparent hover:border-gray-400 transition-border-color">#Today I Learned</g-link>
+          </li>
+          
           <li class="px-2">
             <a href="/sitemap.xml" class="border-b border-transparent hover:border-gray-400 transition-border-color">Sitemap</a>
           </li>
