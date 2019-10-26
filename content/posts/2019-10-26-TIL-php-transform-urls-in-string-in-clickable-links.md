@@ -2,7 +2,7 @@
 title: "TIL - Today I learned - Replace any URL's within a string of text, to clickable links with PHP"
 slug:
 description: ""
-date: 2019-10-09 01:43:55
+date: 2019-10-26 18:55:55
 author: Catalin
 tags: ['TIL', 'Today I learned', 'PHP', 'regex']
 cover:
