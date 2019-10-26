@@ -1,5 +1,5 @@
 ---
-title: "TIL - Today I learned - Replace any URL's within a string of text, to clickable links with PHP"
+title: "Replace any URL's within a string of text, to clickable links with PHP #TIL"
 slug:
 description: ""
 date: 2019-10-26 18:55:55
