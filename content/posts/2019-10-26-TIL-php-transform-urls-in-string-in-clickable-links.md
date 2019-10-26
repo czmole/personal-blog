@@ -4,7 +4,7 @@ slug:
 description: ""
 date: 2019-10-26 18:55:55
 author: Catalin
-tags: ['TIL', 'Today I learned', 'PHP', 'regex']
+tags: ['Today I Learned', 'PHP', 'regex']
 cover:
 fullscreen: false
 ---
