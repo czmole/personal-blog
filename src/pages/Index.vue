@@ -10,7 +10,7 @@
       <nav>
         <ul class="inline-flex sm:text-center -mx-2 mt-4">
           <li class="px-2">
-            <g-link to="/about/" class="border-b border-transparent hover:border-gray-400 transition-border-color">About</g-link>
+            <g-link to="/about/" class="border-b border-transparent hover:border-gray-400 transition-border-color">Hello World aka About 😊</g-link>
           </li>
           
           <li class="px-2">
