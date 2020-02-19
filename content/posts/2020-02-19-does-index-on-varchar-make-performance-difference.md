@@ -33,3 +33,4 @@ So I will quote this below just in case:
 > The key is wildcarding the lefthand side of the string means that an index on the column can't be used.
 > Also know that [MySQL limits the amount of space set aside for indexes](http://dev.mysql.com/doc/refman/5.7/en/mysql-indexes.html) - they can be up to 1000 bytes long for MyISAM (767 bytes for InnoDB) tables.
 
+In the end, I used crc32 (PHP link as that's what I was using https://www.php.net/manual/en/function.crc32.php) which generates an integer value that is better when doing searches /indexes on MySQL and most RDBMS's.
