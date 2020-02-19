@@ -1,5 +1,5 @@
 ---
-title: "Does index on Varchar make performance difference?"
+title: "MySQL - Does an index on VARCHAR field make performance difference?"
 slug:
 description: ""
 date: 2020-02-19 15:00:00
