@@ -42,3 +42,5 @@ Also know that [MySQL limits the amount of space set aside for indexes](http://d
  ---
 
 In the end, I used crc32 (PHP link as that's what I was using https://www.php.net/manual/en/function.crc32.php) which generates an integer value that is better when doing searches /indexes on MySQL and most RDBMS's.
+
+But I learned from that answer on stackoverflow.com when indexes on varchars gets into action and when they are not usefull.
