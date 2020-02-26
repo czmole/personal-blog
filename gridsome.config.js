@@ -6,7 +6,7 @@ class TailwindExtractor {
 
 module.exports = {
   siteName: 'New Bits On The Blog',
-  siteDescription: "Thoughts, stories, ideas, how-to. Mostly on web development.",
+  siteDescription: "How-to's, Ideas, Thoughts - Mostly on web development",
   siteUrl: 'https://blog.zmole.ro',
   titleTemplate: `%s`,
   icon: 'src/favicon.png',
@@ -115,8 +115,3 @@ module.exports = {
       })
   },
 }
-
-
-
-
-
