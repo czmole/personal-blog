@@ -9,9 +9,9 @@ cover:
 fullscreen: false
 ---
 
-Say you have an array of objects like follow and you would like to get distinct values based a key - property of the object.
+Let's say you have an array of objects like follow and you would like to get distinct values based on a key - property of the object.
 
-Let's consider to have this list
+Let's consider to have this list:
 
 ```javascript
 const list = [{
@@ -29,7 +29,7 @@ const list = [{
 }];
 ```
 
-And you would like to have as a result an array of unique group names, in this case ['A', 'B'] 
+And you would like to have as a result an array of unique group names, in this case ``['A', 'B']``
 
 A simple solution that I have found is to use Set and map to create the list with your results:
 
@@ -44,6 +44,8 @@ If we would like to actually get distinct unique objects based on the ``group`` 
 ```javascript
 let unique = [...new Map(list.map(item => [item['group'], item])).values()];
 ```
+
+You can see the results in the same [codepen snippet](https://codepen.io/czmole/pen/bGVpByG?editors=0012). 
 
 In terms of performance, in the same thread that I found these solutions you can see a comparison on using dictionary approach vs map and filter.
 
