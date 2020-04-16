@@ -62,6 +62,8 @@
               href="https://en.wikipedia.org/wiki/Maya_Angelou" target="_blank" rel="noopener">Maya Angelou</a></p>
           <blockquote>
             <p><em>Success is liking yourself, liking what you do, and liking how you do it.&nbsp;</em></p>
+          </blockquote>
+          <blockquote>
             <p><em>If you don't like something, change it. If you can't change it, change your attitude.&nbsp;</em></p>
           </blockquote>
         </div>
