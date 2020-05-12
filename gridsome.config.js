@@ -1,9 +1,3 @@
-class TailwindExtractor {
-  static extract(content) {
-    return content.match(/[A-Za-z0-9-_:\/]+/g) || [];
-  }
-}
-
 module.exports = {
   siteName: 'New Bits On The Blog',
   siteDescription: "How-to's, Ideas, Thoughts - Mostly on web development",
@@ -29,20 +23,17 @@ module.exports = {
       options: {
         path: 'content/posts/**/*.md',
         typeName: 'Post',
-        route: '/:slug',
         refs: {
           tags: {
             typeName: 'Tag',
-            route: '/tag/:id',
-            create: true
+            create: true,
           },
           author: {
             typeName: 'Author',
-            route: '/author/:id',
-            create: true
-          }
-        }
-      }
+            create: true,
+          },
+        },
+      },
     },
     {
       use: '@gridsome/plugin-google-analytics',
@@ -54,7 +45,7 @@ module.exports = {
       use: '@gridsome/plugin-sitemap',
       options: {
         cacheTime: 600000, // default
-      }
+      },
     },
     {
       use: 'gridsome-plugin-rss',
@@ -74,11 +65,17 @@ module.exports = {
         }),
         output: {
           dir: './static',
-          name: 'feed.xml'
-        }
-      }
+          name: 'feed.xml',
+        },
+      },
     },
   ],
+
+  templates: {
+    Post: '/:title',
+    Tag: '/tag/:id',
+    Author: '/author/:id',
+  },
 
   chainWebpack: config => {
     config.module
@@ -91,25 +88,6 @@ module.exports = {
           require('postcss-nested'),
           require('tailwindcss'),
         ])
-
-        if (process.env.NODE_ENV === 'production') {
-          options.plugins.push(...[
-            require('@fullhuman/postcss-purgecss')({
-              content: [
-                'src/assets/**/*.css',
-                'src/**/*.vue',
-                'src/**/*.js'
-              ],
-              extractors: [
-                {
-                  extractor: TailwindExtractor,
-                  extensions: ['css', 'vue', 'js']
-                }
-              ],
-              whitelistPatterns: [/shiki/]
-            }),
-          ])
-        }
 
         return options
       })
