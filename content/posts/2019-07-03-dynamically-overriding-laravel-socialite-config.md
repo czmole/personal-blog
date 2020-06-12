@@ -1,7 +1,7 @@
 ---
 title: "How to override dynamically Laravel Socialite config"
 slug:
-description: ""
+description: "How to override dynamically Laravel Socialite config"
 date: 2019-07-03 15:35:55
 author: Catalin
 tags: ['Laravel', 'Socialite', 'Config social login']

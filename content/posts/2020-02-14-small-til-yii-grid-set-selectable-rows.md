@@ -1,7 +1,7 @@
 ---
 title: "Small tweak in Yii - defining how many rows can be selected in a CGridView"
 slug:
-description: ""
+description: "Small tweak in Yii - defining how many rows can be selected in a CGridView"
 date: 2020-02-14 11:50:00
 author: Catalin
 tags: ['Today I Learned', 'Yii', 'CGridView', 'how to Yii grid', 'how to']

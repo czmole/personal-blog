@@ -1,7 +1,7 @@
 ---
 title: "Replace any URL's within a string of text, to clickable links with PHP #TIL"
 slug:
-description: ""
+description: "Replace any URL's within a string of text, to clickable links with PHP #TIL"
 date: 2019-10-26 18:55:55
 author: Catalin
 tags: ['Today I Learned', 'PHP', 'regex']

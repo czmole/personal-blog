@@ -1,7 +1,7 @@
 ---
 title: "MySQL - Does an index on VARCHAR field make performance difference?"
 slug:
-description: ""
+description: "MySQL - Does an index on VARCHAR field make performance difference?"
 date: 2020-02-19 15:00:00
 author: Catalin
 tags: ['Today I Learned', 'MySQL', 'Performance']

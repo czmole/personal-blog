@@ -9,6 +9,8 @@ cover:
 fullscreen: false
 ---
 
+This is a basic snippet that would help in case you dont have arround a visual database management tool:
+
 ```sql
 SELECT 
      table_schema as `Database`, 

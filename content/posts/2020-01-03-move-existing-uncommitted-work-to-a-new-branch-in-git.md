@@ -1,7 +1,7 @@
 ---
 title: "How to move existing uncommitted work to a new branch in Git"
 slug:
-description: ""
+description: "How to move existing uncommitted work to a new branch in Git"
 date: 2020-01-03 22:50:00
 author: Catalin
 tags: ['Today I Learned', 'git', 'git branches', 'how to git', 'how to']

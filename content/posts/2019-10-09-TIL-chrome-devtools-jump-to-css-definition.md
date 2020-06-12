@@ -1,7 +1,7 @@
 ---
 title: "Google Chrome DevTool jumping to CSS definition #TIL"
 slug:
-description: ""
+description: "Google Chrome DevTool jumping to CSS definition #TIL"
 date: 2019-10-09 01:43:55
 author: Catalin
 tags: ['Today I Learned', 'Chrome Devtools']
