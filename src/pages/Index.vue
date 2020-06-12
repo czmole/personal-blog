@@ -18,10 +18,7 @@
           </li>
 
           <li class="px-2">
-            <a href="/sitemap.xml" class="border-b border-transparent hover:border-gray-400 transition-border-color">Sitemap</a>
-          </li>
-          <li class="px-2">
-            <a href="/feed.xml" class="border-b border-transparent hover:border-gray-400 transition-border-color">RSS Feed</a>
+            <a href="/tag/Snippets/" class="border-b border-transparent hover:border-gray-400 transition-border-color">Code Snippets</a>
           </li>
         </ul>
       </nav>
