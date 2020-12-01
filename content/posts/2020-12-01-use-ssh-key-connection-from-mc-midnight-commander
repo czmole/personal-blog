@@ -2,7 +2,7 @@
 title: "How to use your SSH key to connect remotely from MC Midnight Commander"
 slug:
 description: "The post describes some steps that would allow you to use a ssh key to connect remotely from midnight commander."
-date: 2020-12-01 21:00:00
+date: 2020-12-01 20:30:00
 author: Catalin
 tags: ['Today I Learned', 'Servers', 'SSH']
 cover:
