@@ -46,7 +46,6 @@ module.exports = {
         // set to true for local debugging; defaults to false
         debug: false
       }
-    }
     },
     {
       use: '@gridsome/plugin-sitemap',
