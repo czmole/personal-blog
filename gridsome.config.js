@@ -36,10 +36,17 @@ module.exports = {
       },
     },
     {
-      use: '@gridsome/plugin-google-analytics',
+      use: 'gridsome-plugin-fathom',
       options: {
-        id: 'UA-5338311-47'
+        siteId: 'KEVJXKXF',
+        // usefal if you're running a self-hosted fathom instance
+        trackerUrl: 'your-custom-url',
+        // declare this to ensure your tracking only occurs on a single host
+        host: 'blog.zmole.ro',
+        // set to true for local debugging; defaults to false
+        debug: false
       }
+    }
     },
     {
       use: '@gridsome/plugin-sitemap',
