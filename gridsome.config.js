@@ -39,11 +39,7 @@ module.exports = {
       use: 'gridsome-plugin-fathom',
       options: {
         siteId: 'KEVJXKXF',
-        // usefal if you're running a self-hosted fathom instance
-        trackerUrl: 'your-custom-url',
-        // declare this to ensure your tracking only occurs on a single host
         host: 'blog.zmole.ro',
-        // set to true for local debugging; defaults to false
         debug: false
       }
     },
