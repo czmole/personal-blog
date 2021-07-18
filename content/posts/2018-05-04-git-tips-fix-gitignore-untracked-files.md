@@ -4,7 +4,7 @@ slug: git-tips-fix-gitignore-untracked-files
 description: "Quick GIT tip — fix .gitignore untracked files"
 date: 2018-05-04 00:00:01
 author: Catalin
-tags: ['how to git', 'how to']
+tags: ['how to git', 'how to', 'git']
 cover: 
 fullscreen: false
 ---
